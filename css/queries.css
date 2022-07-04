@@ -1,0 +1,116 @@
+/**big tablets to 1200px (widths smaller than the 1140px row)**/
+@media only screen and (max-width: 1200px) {
+    .text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+/**small tablets to big tablets: from 768px to 1023px**/
+@media only screen and (max-width: 1023px) {}
+
+
+
+
+/**small phones to small tablets: from 481px to 768px**/
+@media only screen and (max-width: 767px) {}
+
+
+
+
+/**small phones: from 0 to 480px**/
+@media only screen and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+
+    .text-box {
+        position: absolute;
+        font-size: 11px;
+    }
+
+    .logo {
+        height: 30px;
+        width: 100px;
+        position: relative;
+        left: -35px;
+    }
+
+    .main-nav {
+        position: absolute;
+        display: block;
+        margin-left: 70px;
+    }
+
+    .main-nav li {
+        padding: 5px;
+        border-radius: 10px;
+        display: inline-block;
+        margin: -5px 2px;
+        color: #000;
+        font-size: 8px;
+
+    }
+
+    .main-nav li:active {
+        padding: 5px;
+        border-radius: 10px;
+        transition: linear 0.3s;
+        background-color: transparent;
+        color: #150825;
+    }
+
+    #li-artist {
+        border: 2px solid #150825;
+        padding: 7px;
+        border-radius: 6px;
+        display: inline-block;
+    }
+
+    .rectangle {
+        width: 300px;
+        height: 100px;
+        background-color: #ff7657;
+        border-top-right-radius: 175px;
+        border-bottom-right-radius: 175px;
+        display: block;
+        float: right;
+        transform: rotate(130deg);
+        margin-top: 120px;
+        margin-left: 200px;
+        position: absolute;
+        margin-right: 0px;
+
+
+    }
+
+    .square {
+        width: 80px;
+        height: 80px;
+        background-color: #ff7657;
+        float: right;
+        position: absolute;
+        display: block;
+        margin-right: 0;
+        margin-left: 235px;
+        margin-top: -9px;
+    }
+
+    .circle {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: #150825;
+        margin: auto;
+        padding: auto;
+        top: 300px;
+        left: 50px;
+        position: relative;
+    }
+
+}
