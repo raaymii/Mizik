@@ -12,7 +12,7 @@ body {
   line-height: 1;
 }
 section {
-  padding: 80px 0;
+  padding: 8rem 0;
 }
 .row {
   max-width: 114rem;
@@ -66,15 +66,14 @@ h1 {
   width: 24.5rem;
   height: 16.5rem;
 }
-
 .rectangle {
   display: block;
-  position: absolute;
+  position: relative;
   background-color: #ff7657;
   width: 55rem;
   height: 35rem;
-  border-top-right-radius: 17.5rem;
-  border-bottom-right-radius: 17.5rem;
+  border-top-right-radius: 175px;
+  border-bottom-right-radius: 175px;
   float: right;
   transform: rotate(130deg);
   margin-top: 14.8rem;
@@ -83,7 +82,7 @@ h1 {
 }
 .square {
   display: block;
-  position: absolute;
+  position: relative;
   background-color: #ff7657;
   width: 26.8rem;
   height: 23.3rem;
@@ -109,19 +108,13 @@ h1 {
 /* NAVIGATION */
 /*---------------------------------*/
 .main-nav {
-  display: block;
+  display: inline-block;
+  position: absolute;
   margin-left: 75rem;
   z-index: 9999;
-  position: absolute;
 }
 .main-nav li:link,
 .main-nav li:visited {
-  /* display: inline-block;
-      margin-left: 40px;
-      margin-top: 40px;
-      position: relative;
-      border: 2px solid white; */
-  /* border: 2px solid #15082500; */
   padding: 1.5rem;
   border-radius: 10px;
   display: inline-block;
@@ -232,25 +225,25 @@ p {
   background-color: rgb(231, 231, 231);
   /* width: 100%; */
   background-attachment: fixed;
-  padding: 50px;
-  height: 700px;
+  padding: 5rem;
+  height: 70rem;
 }
 .section-discover h2 {
-  font-size: 40px;
-  margin-left: 593px;
-  margin-top: 200px;
+  font-size: 4rem;
+  margin-left: 59.3rem;
+  margin-top: 20rem;
 }
 .section-discover p {
-  font-size: 16px;
-  margin-top: 30px;
-  margin-left: 600px;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  margin-left: 60rem;
 }
 .small-discover {
-  width: 480px;
-  height: 330px;
+  width: 48rem;
+  height: 33rem;
   position: relative;
-  left: 70px;
-  top: -250px;
+  left: 7rem;
+  top: -25rem;
   z-index: 9998;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
@@ -258,82 +251,82 @@ p {
 
 .section-invest {
   background-color: rgb(255, 255, 255);
-  height: 700px;
+  height: 70rem;
 }
 .section-invest h2 {
-  font-size: 40px;
-  margin-left: 100px;
-  margin-top: 100px;
+  font-size: 4rem;
+  margin-left: 10rem;
+  margin-top: 10rem;
 }
 .section-invest p {
-  font-size: 16px;
-  margin-left: 100px;
-  margin-top: 30px;
+  font-size: 1.6rem;
+  margin-left: 10rem;
+  margin-top: 3rem;
 }
 .small-invest {
-  width: 480px;
-  height: 330px;
+  width: 48rem;
+  height: 33rem;
   position: relative;
-  left: 750px;
-  top: -250px;
+  left: 75rem;
+  top: -25rem;
   z-index: 9998;
   box-shadow: 0px 3px 6px #555;
   border-radius: 5px;
 }
 .section-track {
   background-color: rgb(231, 231, 231);
-  height: 600px;
+  height: 60rem;
 }
 .section-track h2 {
-  font-size: 40px;
-  margin-left: 650px;
-  margin-top: 70px;
+  font-size: 4rem;
+  margin-left: 65rem;
+  margin-top: 7rem;
   /* position: relative; */
 }
 .section-track p {
-  font-size: 16px;
-  margin-top: 30px;
-  margin-left: 650px;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  margin-left: 65rem;
 }
 .small-track {
-  width: 480px;
-  height: 330px;
+  width: 48rem;
+  height: 33rem;
   position: relative;
-  left: 100px;
-  top: -280px;
+  left: 10rem;
+  top: -28rem;
   z-index: 9998;
   box-shadow: 0px 3px 6px #555;
   border-radius: 5px;
 }
 .section-artist {
   background-color: rgb(255, 255, 255);
-  height: 600px;
+  height: 60rem;
   background-image: url(img/Rectangle.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .section-artist h2 {
-  font-size: 40px;
+  font-size: 4rem;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 7rem;
 }
 .artist-image {
   display: flex;
-  margin-top: 30px;
+  margin-top: 3rem;
   /* margin-left: 100px; */
   /* position: absolute; */
   justify-content: space-between;
 }
 .section-artist img {
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
+  height: 15rem;
+  width: 15rem;
 }
 figcaption {
   text-align: center;
-  margin-top: 7px;
-  font-size: 15px;
+  margin-top: 0.7rem;
+  font-size: 1.5rem;
   font-weight: 200;
 }
 /* #erigga {
@@ -362,71 +355,71 @@ figcaption {
 </marquee> */
 
 .section-faq {
-  height: 650px;
+  height: 65rem;
   background-color: rgb(231, 231, 231);
 }
 .section-faq h2 {
-  font-size: 40px;
-  margin-top: 30px;
+  font-size: 4rem;
+  margin-top: 3rem;
   text-align: center;
 }
 .faq {
   list-style: none;
   display: block;
   position: relative;
-  margin-left: 350px;
-  margin-top: 50px;
-  font-size: 14px;
+  margin-left: 35rem;
+  margin-top: 5rem;
+  font-size: 1.4rem;
   font-weight: 200;
 }
 footer {
   background-color: #150825;
-  height: 450px;
+  height: 45rem;
 }
 footer p {
   color: rgb(231, 231, 231);
-  font-size: 11px;
+  font-size: 1.1rem;
   display: block;
-  margin-left: 170px;
+  margin-left: 17rem;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 12rem;
 
   /* position: relative; */
   /* margin-bottom: 40px; */
 }
 footer h3 {
-  font-size: 30px;
+  font-size: 3rem;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 3rem;
   color: rgb(231, 231, 231);
   position: relative;
-  top: -430px;
+  top: -43rem;
 }
 footer form {
   background-color: #150825;
   display: flex;
-  height: 50px;
-  width: 500px;
+  height: 5rem;
+  width: 50rem;
   border-radius: 7px;
-  margin-top: -420px;
-  margin-left: 450px;
+  margin-top: -42rem;
+  margin-left: 45rem;
   /* flex-basis: 200px; */
   /* position: relative; */
 }
 input[type="email"] {
   width: 70%;
-  font-size: 11px;
+  font-size: 1.1rem;
   color: #150825;
   background-color: rgb(231, 231, 231);
   border-radius: 10px;
-  padding: 10px;
+  padding: 1rem;
   border: transparent;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 form #submit {
   width: 30%;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: rgb(231, 231, 231);
   background-color: #45284e;
   text-transform: uppercase;
@@ -436,25 +429,25 @@ form #submit {
   border-bottom-left-radius: 0;
 }
 .footerp1 {
-  font: 15px;
+  font: 1.5rem;
   color: #e7e7e7;
   display: inline-block;
-  margin-left: 980px;
-  margin-top: 70px;
+  margin-left: 98rem;
+  margin-top: 7rem;
 }
 .footerp2 {
-  font: 15px;
+  font: 1.5rem;
   color: #e7e7e7;
   display: inline-block;
-  margin-left: 980px;
-  margin-top: 15px;
+  margin-left: 98rem;
+  margin-top: 1.5rem;
 }
 .footerp3 {
-  font: 15px;
+  font: 1.5rem;
   color: #e7e7e7;
   display: inline-block;
-  margin-left: 980px;
-  margin-top: 17px;
+  margin-left: 98rem;
+  margin-top: 1.7rem;
 }
 .social-links {
   list-style: none;
@@ -463,15 +456,15 @@ form #submit {
   background-color: transparent;
   z-index: 9999;
   position: relative;
-  font-size: 20px;
-  left: 970px;
-  top: 10px;
+  font-size: 2rem;
+  left: 97rem;
+  top: 1rem;
 }
 .social-links li {
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 0.5rem;
   color: rgb(231, 231, 231);
-  padding: 5px;
+  padding: 0.5rem;
 }
 
 .social-links li a:link,
@@ -485,7 +478,7 @@ form #submit {
 .instagram,
 .linkedin {
   transition: color 0.2s;
-  font-size: 25px;
+  font-size: 2.5rem;
   color: rgb(231, 231, 231);
   border: 2px solid rgb(231, 231, 231);
   background-color: #150825;
