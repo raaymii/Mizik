@@ -10,6 +10,7 @@ body {
   font-family: "Circular Std", sans-serif;
   max-width: 100%;
   line-height: 1;
+  overflow: hidden;
 }
 section {
   padding: 8rem 0;
@@ -69,28 +70,12 @@ h1 {
 .rectangle {
   display: block;
   position: relative;
-  background-color: #ff7657;
-  width: 55rem;
-  height: 35rem;
-  border-top-right-radius: 175px;
-  border-bottom-right-radius: 175px;
   float: right;
-  transform: rotate(130deg);
-  margin-top: 14.8rem;
-  margin-left: 76.3rem;
-  margin-right: 0rem;
+  transform: rotate(180deg);
+  top: -10.5rem;
+  right: -20rem;
 }
-.square {
-  display: block;
-  position: relative;
-  background-color: #ff7657;
-  width: 26.8rem;
-  height: 23.3rem;
-  float: right;
-  margin-right: 0;
-  margin-left: 108.1rem;
-  margin-top: -0.9rem;
-}
+
 .circle {
   display: block;
   position: relative;
@@ -101,28 +86,29 @@ h1 {
   margin: auto;
   padding: auto;
   top: 30rem;
-  left: 5rem;
+  left: 4rem;
 }
 
 /*---------------------------------*/
 /* NAVIGATION */
 /*---------------------------------*/
 .main-nav {
-  display: inline-block;
-  position: absolute;
-  margin-left: 75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  margin-left: 105rem;
+  list-style: none;
   z-index: 9999;
+  right: 0rem;
 }
-.main-nav li:link,
-.main-nav li:visited {
+.main-nav li {
   padding: 1.5rem;
-  border-radius: 10px;
   display: inline-block;
   margin: 2.9rem 0.5rem;
   color: #4f4f4f;
 }
-.main-nav li:hover,
-.main-nav li:active {
+.main-nav li:hover {
   /* border:  2px solid #150825; */
   padding: 1.5rem;
   border-radius: 10px;
@@ -192,22 +178,24 @@ p {
 
 /* Buttons */
 .btn-hero {
-  display: flex;
-  flex-direction: row;
+  display: block;
+  position: relative;
+  top: 42rem;
+  left: -12rem;
 }
 .btn-app:link,
 .btn-app:visited {
   border: 0;
 }
 
-.btn-app img {
+/* .btn-app img {
   margin-right: 1rem;
   width: auto;
   height: 5rem;
   display: block;
   position: absolute;
   top: 46rem;
-}
+} */
 
 .btn-app img {
   margin-right: 1rem;
